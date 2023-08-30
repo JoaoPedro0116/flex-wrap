@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>flex-box</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <a href="#1"><li>ex:01</li></a>
+                    <a href="#2"><li>ex:02</li></a>
+                    <a href="#3"><li>ex:03</li></a>
+                    <a href="#4"><li>ex:04</li></a>
+        
+                </ul>
+            </nav>
+    </header>
+
+    <h1 id="1"></h1>
+    <div class="container">
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+    </div>
+
+    <h1 id="2"></h1>
+    <div class="container2">
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+    </div>
+<!-- Os itens flexíveis são quebrados
+ em multiplas linhas. O cross-start é 
+ equivalente a iniciar ou antes dependendo 
+ do valor do flex-direction e cross-end é o 
+ oposto do especificado cross-start. -->
+
+    <h1  id="3"></h1>
+    <div class="container3">
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+        <div class="caixa"></div>
+    </div>
+     <!-- Os itens flexíveis são agrupados 
+em uma unica linha, o que pode fazer com 
+que o flex container transborde. O cross-start 
+é equivalente ao início ou antes, dependendo do 
+valor da flex-direction. Este é o valor padrão. -->
+
+
+<h1 id="4"></h1>
+    <div class="container4">
+        <div class="caixa"><h1>1</h1></div>
+        <div class="caixa"><h1>2</h1></div>
+        <div class="caixa"><h1>3</h1></div>
+        <div class="caixa"><h1>4</h1></div>
+    </div>
+<!-- Se comporta da mesma maneira que o wrap mas 
+a de linha ocorre na direção contrária, ou seja, 
+para a linha acima. -->
+</body>
+</html>
